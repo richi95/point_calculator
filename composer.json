@@ -1,0 +1,18 @@
+{
+  "autoload": {
+    "psr-4": {
+      "RedGreenCode\\Discounts\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RedGreenCode\\Discounts\\Testing\\": "tests/"
+    }
+  },
+  "require": {
+    "spatie/data-transfer-object": "^1.14"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  }
+}
